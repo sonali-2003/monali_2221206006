@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //input a number and find it revers
+        var n,s=0,r;
+        n=parseInt(prompt("enter anumber"));
+        while (parseInt(n)!=0) 
+        {
+            r=parseInt(n)%10;
+            s= s*10+r;
+            n=parseInt(n)/10;
+        }
+        document.write("the revers no=" +s);
+    
+        </script>
+        
+</body>
+</html>
